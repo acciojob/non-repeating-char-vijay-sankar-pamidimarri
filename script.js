@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 	let res={};
-	for let i of str{
+	for(let i of str){
 		res[i]=(res[i]||0)+1;
 	}
 	for(let i of str){
